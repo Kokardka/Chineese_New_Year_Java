@@ -7,7 +7,7 @@ class ChineeseNewYear {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Wprowadź rok: ");
+        System.out.print("Enter the year: ");
         int year = input.nextInt();
 
         switch (year % 12) {
